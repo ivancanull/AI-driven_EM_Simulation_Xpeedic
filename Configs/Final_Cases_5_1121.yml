@@ -1,0 +1,55 @@
+case: "Final_Cases"
+working_dir: "~/hdd1/zhf/AI-driven_EM_Simulation/Codes" 
+node: 100
+
+passivity: True
+verbose: True
+trial: True
+multilayers: True
+distributed: False
+
+config:
+  dir: "../Configs/Parameters/Final_Cases_5_1121.json"
+
+num_epochs: 20000
+batch_size: 32
+
+validation:
+  valid_per_epoch: 100
+  
+ckpt:
+  read: False
+  save: True
+  save_per_epoch: 100
+  early_stop_thres: 7.0e-7
+
+datasets:
+  dir: "../Data/Dataset"
+  mode: "final"
+  train_datasets: ["Final_Cases_5_1121_train"]
+  test_datasets: ["Final_Cases_5_1121_test"]
+  sampling_method: "random"
+  sampling_ratio: 0.8
+
+fig:
+  dir: "../Figures"
+  plot_during_train: True
+  plot_per_epoch: 1000
+  example_num: 5
+
+model:
+  name: "resnet_srsi"
+  trunk_layers: [2048, 2048, 2048]
+  head_layers: [2048, 2048, 2048]
+  
+optimizer:
+  name: "adamw"
+  lr: 0.00001
+  weight_decay: 0
+
+
+scheduler:
+  name: "constant"
+
+loss:
+  name: "mse"

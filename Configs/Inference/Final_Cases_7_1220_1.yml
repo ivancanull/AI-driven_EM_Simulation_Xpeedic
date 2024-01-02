@@ -1,0 +1,55 @@
+case: "Final_Cases" # the name of the case, which is used to generate the dataset
+node: 100 # the number of ports of the transmission line in this case
+
+verbose: True # 
+multilayers: True # if True, means the transimission line model is a multi-layer model
+differentline: 'center_aligned' # support mode: same_column, center_aligend, if all the line in the same layer is the same, do not include this parameter
+distributed: False 
+
+config:
+  dir: "../Configs/Parameters/Final_Cases_7_1220_1.json" # the path of the loaded parameter file
+
+inference_config:
+  dir: "../Configs/Inference/Final_Cases_7_1220_1.json"
+
+datasets:
+  dir: "../Data/Dataset" # the path of the dataset
+  mode: "final_multi_column" # the mode of the dataset, "final" means the dataset is generated for the final multi-layer transmission line model, 
+  # train_datasets: ["Final_Cases_7_1214_1_train"] # here defines the training dataset, which is a list of dataset names
+  # test_datasets: ["Final_Cases_7_1214_2_test"] # similar to the training dataset, here defines the test dataset
+  train_datasets: ["Final_Cases_7_1220_1_train"]
+  test_datasets: ["Final_Cases_7_1220_2_test"]
+  sampling_method: "random" # the sampling method of the dataset, "random" means the dataset is randomly sampled from the parameter space, "guided_uniform" means the dataset is sampled from the parameter space with a guided uniform distribution
+  sampling_ratio: 0.8 # the ratio of the dataset for training in the dataset, the rest of the dataset will be used for validation
+  column_specific: True # use specific column's w and s as parameters
+
+  # another option is not specify training and testing dataset, but to split them from a single dataset, which is defined as follows:
+  # datasets: ["Final_Cases_2_1117"]
+
+  # in this case, the dataset will be split into training and testing dataset according to the sampling ratio same as the above case
+
+fig:
+  dir: "../Figures" # the path of the figure
+  plot_during_train: True # if True, means the figure will be plotted during the training process
+  plot_per_epoch: 1000 # plot the figure every 1000 epochs
+  example_num: 5 # the number of examples to plot
+
+# the following settings are used for Codes/cores/builder.py, which is used to generate the dataset, models, optimizer, scheduler and loss function
+
+model:
+  name: "transposed_conv_net_srsi" # the name of the model, "resnet_srsi" means the model is a residual network which outputs both the real and imag parts of S-parameters
+  layers: [1024, 1024, 256, 128, 64]
+  read: "Final_Cases_7_1220_1"
+  # attention: for different models, the definiations and settings of the model may be different, please refer to the model file for more details
+  
+optimizer:
+  name: "adamw" # the name of the optimizer, "adamw" means the optimizer is AdamW
+  lr: 0.00001 # the learning rate of the optimizer
+  weight_decay: 0 # the weight decay of the optimizer, which is the L2 regularization coefficient
+
+scheduler:
+  name: "constant" # the name of the scheduler, "constant" means the scheduler is a constant scheduler
+
+loss:
+  name: "mse" # the name of the loss function, "mse" means the loss function is mean square error
+

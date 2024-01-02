@@ -1,0 +1,13 @@
+{
+    "name": "Final Cases",
+    "Frequency": [200, "MHz", 100, "GHz", 200, "MHz"],
+    "Layer": 5,
+    "DifferentLayer": false,
+    "Parameters":{
+        "W":[32.5, 35, 37.5, 40, 42.5, 45, 47.5, 50],
+        "S":[45, 50, 55, 60, 65, 70, 75, 80]
+    },
+    "Variables": ["W", "S"],
+    "Pattern": "GGSGGGGSGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+    "Combination": "Pair"
+}

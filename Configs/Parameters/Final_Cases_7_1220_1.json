@@ -1,0 +1,233 @@
+{
+    "name": "Final Cases",
+    "Frequency": [200, "MHz", 100, "GHz", 200, "MHz"],
+    "Layer": 5,
+    "DifferentLayer": false,
+    "Parameters":{
+        "W":{
+            "min": 34,
+            "nominal": 35,
+            "max": 36,
+            "step": 1,
+            "endpoint": true
+        },
+        "S":{
+            "min": 44,
+            "nominal": 45,
+            "max": 46,
+            "step": 1,
+            "endpoint": true
+        },
+        "W_1":{
+            "min": 30,
+            "nominal": 30,
+            "max": 30,
+            "step": 2.5,
+            "endpoint": true
+        },
+        "W_2":{
+            "min": 31,
+            "nominal": 31,
+            "max": 31,
+            "step": 2.5,
+            "endpoint": true
+        },
+        "W_3":{
+            "min": 32,
+            "nominal": 32,
+            "max": 32,
+            "step": 2.5,
+            "endpoint": true
+        },
+        "W_4":{
+            "min": 33,
+            "nominal": 33,
+            "max": 33,
+            "step": 2.5,
+            "endpoint": true
+        },
+        "W_5":{
+            "min": 34,
+            "nominal": 34,
+            "max": 34,
+            "step": 2.5,
+            "endpoint": true
+        },
+        "W_6":{
+            "min": 35,
+            "nominal": 35,
+            "max": 35,
+            "step": 2.5,
+            "endpoint": true
+        },
+        "W_7":{
+            "min": 36,
+            "nominal": 36,
+            "max": 36,
+            "step": 2.5,
+            "endpoint": true
+        },
+        "W_8":{
+            "min": 37,
+            "nominal": 37,
+            "max": 37,
+            "step": 2.5,
+            "endpoint": true
+        },
+        "W_9":{
+            "min": 38,
+            "nominal": 38,
+            "max": 38,
+            "step": 2.5,
+            "endpoint": true
+        },
+        "W_10":{
+            "min": 39,
+            "nominal": 39,
+            "max": 39,
+            "step": 2.5,
+            "endpoint": true
+        },
+        "T":{
+            "min": 13,
+            "nominal": 15,
+            "max": 15,
+            "step": 1,
+            "endpoint": true
+        },
+        "T_1":{
+            "min": 13,
+            "nominal": 15,
+            "max": 15,
+            "step": 1,
+            "endpoint": true
+        },
+        "T_2":{
+            "min": 13,
+            "nominal": 15,
+            "max": 15,
+            "step": 1,
+            "endpoint": true
+        },
+        "T_3":{
+            "min": 13,
+            "nominal": 15,
+            "max": 15,
+            "step": 1,
+            "endpoint": true
+        },
+        "T_4":{
+            "min": 13,
+            "nominal": 15,
+            "max": 15,
+            "step": 1,
+            "endpoint": true
+        },
+        "T_5":{
+            "min": 13,
+            "nominal": 15,
+            "max": 15,
+            "step": 1,
+            "endpoint": true
+        },
+        "Conductivity":{
+            "min": 5.8e7,
+            "nominal": 5.8e7,
+            "max": 5.8e7
+        },
+        "Er":{
+            "min": 3.7,
+            "nominal": 3.9,
+            "max": 3.9,
+            "step": 0.1,
+            "endpoint": true
+        },
+        "Er_1":{
+            "min": 3.7,
+            "nominal": 3.9,
+            "max": 3.9,
+            "step": 0.1,
+            "endpoint": true
+        },
+        "Er_2":{
+            "min": 3.7,
+            "nominal": 3.9,
+            "max": 3.9,
+            "step": 0.1,
+            "endpoint": true
+        },
+        "H":{
+            "min": 48,
+            "nominal": 50,
+            "max": 50,
+            "step": 1,
+            "endpoint": true
+        },
+        "H_1":{
+            "min": 48,
+            "nominal": 50,
+            "max": 50,
+            "step": 1,
+            "endpoint": true
+        },
+        "H_2":{
+            "min": 48,
+            "nominal": 50,
+            "max": 50,
+            "step": 1,
+            "endpoint": true
+        },
+        "H_3":{
+            "min": 48,
+            "nominal": 50,
+            "max": 50,
+            "step": 1,
+            "endpoint": true
+        },
+        "H_4":{
+            "min": 48,
+            "nominal": 50,
+            "max": 50,
+            "step": 1,
+            "endpoint": true
+        },
+        "H_5":{
+            "min": 48,
+            "nominal": 50,
+            "max": 50,
+            "step": 1,
+            "endpoint": true
+        },
+        "H_6":{
+            "min": 48,
+            "nominal": 50,
+            "max": 50,
+            "step": 1,
+            "endpoint": true
+        },
+        "Loss":{
+            "min": 0.009,
+            "nominal": 0.01,
+            "max": 0.011,
+            "step": 0.001,
+            "endpoint": true
+        },
+        "Loss_1":{
+            "min": 0.009,
+            "nominal": 0.01,
+            "max": 0.011,
+            "step": 0.001,
+            "endpoint": true
+        },
+        "Loss_2":{
+            "min": 0.009,
+            "nominal": 0.01,
+            "max": 0.011,
+            "step": 0.001,
+            "endpoint": true
+        }
+    },
+    "Variables": ["W", "S", "W_1", "W_2", "W_3", "W_4", "W_5", "W_6", "W_7", "W_8", "W_9", "W_10", "T_1", "T_2", "T_3", "T_4", "T_5", "H_1", "H_2", "H_3", "H_4", "H_5", "H_6", "Er_1", "Er_2", "Loss_1", "Loss_2"],
+    "Pattern": "GGSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSGG",
+    "Combination": "Dot"
+}

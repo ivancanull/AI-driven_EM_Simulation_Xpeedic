@@ -1,0 +1,299 @@
+{
+    "name": "Final Cases",
+    "Frequency": [200, "MHz", 100, "GHz", 200, "MHz"],
+    "Layer": 5,
+    "DifferentLayer": false,
+    "Parameters":{
+        "W":[
+            {
+                "min": 20.0,
+                "nominal": 20.0,
+                "max": 22.5,
+                "step": 0.1
+            },
+            {
+                "min": 22.5,
+                "nominal": 25,
+                "max": 27.5,
+                "step": 0.1
+            },
+            {
+                "min": 27.5,
+                "nominal": 30,
+                "max": 32.5,
+                "step": 0.1
+            },
+            {
+                "min": 32.5,
+                "nominal": 35,
+                "max": 37.5,
+                "step": 0.1
+            },
+            {
+                "min": 37.5,
+                "nominal": 40,
+                "max": 42.5,
+                "step": 0.1
+            },
+            {
+                "min": 42.5,
+                "nominal": 45,
+                "max": 47.5,
+                "step": 0.1
+            },
+            {
+                "min": 47.5,
+                "nominal": 50,
+                "max": 52.5,
+                "step": 0.1
+            },
+
+            {
+                "min": 20.0,
+                "nominal": 20.0,
+                "max": 22.5,
+                "step": 0.1
+            },
+            {
+                "min": 22.5,
+                "nominal": 25,
+                "max": 27.5,
+                "step": 0.1
+            },
+            {
+                "min": 27.5,
+                "nominal": 30,
+                "max": 32.5,
+                "step": 0.1
+            },
+            {
+                "min": 32.5,
+                "nominal": 35,
+                "max": 37.5,
+                "step": 0.1
+            },
+            {
+                "min": 37.5,
+                "nominal": 40,
+                "max": 42.5,
+                "step": 0.1
+            },
+            {
+                "min": 42.5,
+                "nominal": 45,
+                "max": 47.5,
+                "step": 0.1
+            },
+            {
+                "min": 47.5,
+                "nominal": 50,
+                "max": 52.5,
+                "step": 0.1
+            },
+
+            {
+                "min": 20.0,
+                "nominal": 20.0,
+                "max": 22.5,
+                "step": 0.1
+            },
+            {
+                "min": 22.5,
+                "nominal": 25,
+                "max": 27.5,
+                "step": 0.1
+            },
+            {
+                "min": 27.5,
+                "nominal": 30,
+                "max": 32.5,
+                "step": 0.1
+            },
+            {
+                "min": 32.5,
+                "nominal": 35,
+                "max": 37.5,
+                "step": 0.1
+            },
+            {
+                "min": 37.5,
+                "nominal": 40,
+                "max": 42.5,
+                "step": 0.1
+            },
+            {
+                "min": 42.5,
+                "nominal": 45,
+                "max": 47.5,
+                "step": 0.1
+            },
+            {
+                "min": 47.5,
+                "nominal": 50.0,
+                "max": 50.0,
+                "step": 0.1
+            }
+        ],
+        "S":[
+            {
+                "min": 20.0,
+                "nominal": 20.0,
+                "max": 25.0,
+                "step": 0.2
+            },
+            {
+                "min": 25.0,
+                "nominal": 30.0,
+                "max": 35.0,
+                "step": 0.2
+            },
+            {
+                "min": 35.0,
+                "nominal": 40.0,
+                "max": 45.0,
+                "step": 0.2
+            },
+            {
+                "min": 45.0,
+                "nominal": 50.0,
+                "max": 55.0,
+                "step": 0.2
+            },
+            {
+                "min": 55.0,
+                "nominal": 60.0,
+                "max": 65.0,
+                "step": 0.2
+            },
+            {
+                "min": 65.0,
+                "nominal": 70.0,
+                "max": 75.0,
+                "step": 0.2
+            },
+            {
+                "min": 75.0,
+                "nominal": 80.0,
+                "max": 85.0,
+                "step": 0.2
+            },
+            {
+                "min": 25.0,
+                "nominal": 30.0,
+                "max": 35.0,
+                "step": 0.2
+            },
+            {
+                "min": 35.0,
+                "nominal": 40.0,
+                "max": 45.0,
+                "step": 0.2
+            },
+            {
+                "min": 45.0,
+                "nominal": 50.0,
+                "max": 55.0,
+                "step": 0.2
+            },
+            {
+                "min": 55.0,
+                "nominal": 60.0,
+                "max": 65.0,
+                "step": 0.2
+            },
+            {
+                "min": 65.0,
+                "nominal": 70.0,
+                "max": 75.0,
+                "step": 0.2
+            },
+            {
+                "min": 75.0,
+                "nominal": 80.0,
+                "max": 85.0,
+                "step": 0.2
+            },
+            {
+                "min": 85.0,
+                "nominal": 90.0,
+                "max": 95.0,
+                "step": 0.2
+            },
+
+            {
+                "min": 35.0,
+                "nominal": 40.0,
+                "max": 45.0,
+                "step": 0.2
+            },
+            {
+                "min": 45.0,
+                "nominal": 50.0,
+                "max": 55.0,
+                "step": 0.2
+            },
+            {
+                "min": 55.0,
+                "nominal": 60.0,
+                "max": 65.0,
+                "step": 0.2
+            },
+            {
+                "min": 65.0,
+                "nominal": 70.0,
+                "max": 75.0,
+                "step": 0.2
+            },
+            {
+                "min": 75.0,
+                "nominal": 80.0,
+                "max": 85.0,
+                "step": 0.2
+            },
+            {
+                "min": 85.0,
+                "nominal": 90.0,
+                "max": 95.0,
+                "step": 0.2
+            },
+            {
+                "min": 95.0,
+                "nominal": 100.0,
+                "max": 100.0,
+                "step": 0.2
+            }
+            ],
+        "T":{
+            "min": 12,
+            "nominal": 18,
+            "max": 18,
+            "step": 3
+        },
+        "Conductivity":{
+            "min": 5.8e7,
+            "nominal": 5.8e7,
+            "max": 5.8e7
+        },
+        "Er":{
+            "min": 3.5,
+            "nominal": 3.9,
+            "max": 4.3,
+            "step": 0.2
+        },
+        "H":{
+            "min": 30,
+            "nominal": 30,
+            "max": 60,
+            "step": 10
+        },
+        "Loss":{
+            "min": 0.002,
+            "nominal": 0.01,
+            "max": 0.015,
+            "step": 0.001
+        }
+    },
+    "Variables": ["W", "S"],
+    "Pattern": "GGSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSGGGGSGG",
+    "Combination": "Pair"
+}

@@ -1,0 +1,210 @@
+{
+    "name": "Final Cases",
+    "Frequency": [
+        200,
+        "MHz",
+        100,
+        "GHz",
+        200,
+        "MHz"
+    ],
+    "Layer": 5,
+    "DifferentLayer": false,
+    "Parameters": {
+        "W": [
+            {
+                "min": 5.0,
+                "nominal": 5,
+                "max": 6.25,
+                "step": 0.05
+            },
+            {
+                "min": 6.25,
+                "nominal": 7.5,
+                "max": 8.75,
+                "step": 0.05
+            },
+            {
+                "min": 8.75,
+                "nominal": 10,
+                "max": 11.25,
+                "step": 0.05
+            },
+            {
+                "min": 8.75,
+                "nominal": 10,
+                "max": 11.25,
+                "step": 0.05
+            },
+            {
+                "min": 11.25,
+                "nominal": 12.5,
+                "max": 13.75,
+                "step": 0.05
+            },
+            {
+                "min": 11.25,
+                "nominal": 12.5,
+                "max": 13.75,
+                "step": 0.05
+            },
+            {
+                "min": 13.75,
+                "nominal": 15,
+                "max": 16.25,
+                "step": 0.05
+            },
+            {
+                "min": 13.75,
+                "nominal": 15,
+                "max": 16.25,
+                "step": 0.05
+            },
+            {
+                "min": 16.25,
+                "nominal": 17.5,
+                "max": 18.75,
+                "step": 0.05
+            },
+            {
+                "min": 16.25,
+                "nominal": 17.5,
+                "max": 18.75,
+                "step": 0.05
+            },
+            {
+                "min": 18.75,
+                "nominal": 20,
+                "max": 20,
+                "step": 0.05
+            },
+            {
+                "min": 18.75,
+                "nominal": 20,
+                "max": 20,
+                "step": 0.05
+            },
+            {
+                "min": 18.75,
+                "nominal": 20,
+                "max": 20,
+                "step": 0.05
+            }
+        ],
+        "S": [
+            {
+                "min": 10.0,
+                "nominal": 10.0,
+                "max": 12.5,
+                "step": 0.1
+            },
+            {
+                "min": 12.5,
+                "nominal": 15,
+                "max": 17.5,
+                "step": 0.1
+            },
+            {
+                "min": 10.0,
+                "nominal": 10.0,
+                "max": 12.5,
+                "step": 0.1
+            },
+            {
+                "min": 17.5,
+                "nominal": 20.0,
+                "max": 22.5,
+                "step": 0.1
+            },
+            {
+                "min": 12.5,
+                "nominal": 15,
+                "max": 17.5,
+                "step": 0.1
+            },
+            {
+                "min": 22.5,
+                "nominal": 25,
+                "max": 27.5,
+                "step": 0.1
+            },
+            {
+                "min": 17.5,
+                "nominal": 20.0,
+                "max": 22.5,
+                "step": 0.1
+            },
+            {
+                "min": 27.5,
+                "nominal": 30.0,
+                "max": 32.5,
+                "step": 0.1
+            },
+            {
+                "min": 22.5,
+                "nominal": 25,
+                "max": 27.5,
+                "step": 0.1
+            },
+            {
+                "min": 32.5,
+                "nominal": 35,
+                "max": 37.5,
+                "step": 0.1
+            },
+            {
+                "min": 17.5,
+                "nominal": 20.0,
+                "max": 22.5,
+                "step": 0.1
+            },
+            {
+                "min": 27.5,
+                "nominal": 30.0,
+                "max": 32.5,
+                "step": 0.1
+            },
+            {
+                "min": 37.5,
+                "nominal": 40.0,
+                "max": 40,
+                "step": 0.1
+            }
+        ],
+        "T": {
+            "min": 12,
+            "nominal": 18,
+            "max": 18,
+            "step": 3
+        },
+        "Conductivity": {
+            "min": 5.8e7,
+            "nominal": 5.8e7,
+            "max": 5.8e7
+        },
+        "Er": {
+            "min": 3.5,
+            "nominal": 3.9,
+            "max": 4.3,
+            "step": 0.2
+        },
+        "H": {
+            "min": 30,
+            "nominal": 30,
+            "max": 60,
+            "step": 10
+        },
+        "Loss": {
+            "min": 0.002,
+            "nominal": 0.01,
+            "max": 0.015,
+            "step": 0.001
+        }
+    },
+    "Variables": [
+        "W",
+        "S"
+    ],
+    "Pattern": "GGSGGGGSGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGGG",
+    "Combination": "Pair"
+}

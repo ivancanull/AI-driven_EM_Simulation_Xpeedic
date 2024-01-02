@@ -1,0 +1,45 @@
+case: "Final_Cases"
+working_dir: "~/hdd1/zhf/AI-driven_EM_Simulation/Codes" 
+node: 100
+
+passivity: True
+verbose: True
+trial: True
+multilayers: True
+distributed: False
+
+config:
+  dir: "../Configs/Parameters/Final_Cases_2_1120.json"
+
+inference_config:
+  dir: "../Configs/Inference/Final_Cases_2_1120.json"
+
+datasets:
+  dir: "../Data/Dataset"
+  mode: "final"
+  datasets: ["Final_Cases_2_1120_train"]
+  sampling_method: "random"
+  sampling_ratio: 0.8
+
+fig:
+  dir: "../Figures"
+  plot_during_train: True
+  plot_per_epoch: 1000
+  example_num: 5
+
+model:
+  name: "mlp_srsi"
+  trunk_layers: [ 2048, 2048, 2048]
+  head_layers: [ 2048, 2048, 2048]
+  read: "Final_Cases_2_1120"
+  
+optimizer:
+  name: "adamw"
+  lr: 0.0001
+  weight_decay: 0.0001
+
+scheduler:
+  name: "constant"
+
+loss:
+  name: "mse"

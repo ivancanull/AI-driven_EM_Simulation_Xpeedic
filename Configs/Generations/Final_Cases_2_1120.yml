@@ -1,0 +1,19 @@
+case: "Final_Cases" # the name of the case, which is used to generate the dataset
+node: 100 # the number of ports of the transmission line in this case
+
+verbose: True # 
+multilayers: True # if True, means the transimission line model is a multi-layer model
+differentline: 'center_aligned' # support mode: same_line, same_column, center_aligend, comment this if everyline in the same layer is the same
+
+config:
+  dir: "../Configs/Parameters/Final_Cases_2_1120.json" # the path of the loaded parameter file
+
+dataset_generation:
+  dir: "../Data/Samples" # the path of samples
+  name: "Final_Cases_2_1120" # the name of the dataset
+  complete: False # if True, means the dataset generated is complete, which covers the entire sample space, and will suppress the following train and test dataset settings
+  batch_num: 200 # the batch size of the dataset
+  test:
+    sampling_num: 10 # the number of samples for testing
+    sampling_method: "uniform"
+    random_state: "random"
