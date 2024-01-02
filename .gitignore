@@ -150,6 +150,7 @@ Results/
 *.pkl
 *.xlsx
 *.txt
+*.csv
 !requirements.txt
 
 # some directories

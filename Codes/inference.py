@@ -232,7 +232,7 @@ def inference(
                 output_col.append(f'{ri}({i + 1},{j * port_per_layer + i + 1})')
     for i in range(output_np.shape[0]):
         output_df = pd.DataFrame(np.reshape(output_np[i], (len(output_col), -1)).T, columns=output_col)
-    print(output_df)
+        output_df.to_csv(os.path.join(configs.results_dir, f'{output_log_name}_{i}.csv'), index=False)
     # write inference results
     #  np.savetxt(os.path.join(configs.results_dir, f'{output_log_name}.txt'), Y_inf, delimiter=',')
     return
